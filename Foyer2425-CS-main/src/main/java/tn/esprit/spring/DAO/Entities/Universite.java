@@ -23,4 +23,7 @@ public class Universite implements Serializable {
     @OneToOne(cascade = CascadeType.ALL) //ajout, Modif et suppression
     Foyer foyer;
 
+
+    private long FCapaciteFoyer;
+
 }
